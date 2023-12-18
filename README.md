@@ -30,7 +30,7 @@ $ npm install
 ```
 
 Now, lets set up the service with systemctl.
-
+NOTE: Update redis and catalogue IP addresses in systemdservice
 ```
 # mv /home/roboshop/cart/systemd.service /etc/systemd/system/cart.service
 # systemctl daemon-reload
